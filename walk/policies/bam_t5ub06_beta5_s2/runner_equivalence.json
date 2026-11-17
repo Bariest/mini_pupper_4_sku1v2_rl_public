@@ -1,0 +1,30 @@
+{
+ "policy": "policies/bam_t5ub06_beta5_s2",
+ "arm": "bam_t5ub06",
+ "vx": 0.1,
+ "steps": 250,
+ "mount": "swap_xy",
+ "exact": {
+  "ang_vel": 0.0,
+  "gravity": 1.1920928955078125e-07,
+  "command": 0.0,
+  "pos": 5.960464477539063e-08,
+  "vel": 4.5299530029296875e-06,
+  "prev_action": 1.1920928955078125e-07,
+  "action": 2.5331974029541016e-07,
+  "target_diff_deg": 2.908498605605994e-06,
+  "target_mismatch_steps": 0.0
+ },
+ "quantised": {
+  "ang_vel": 0.0008684694766998291,
+  "gravity": 0.018862571567296982,
+  "command": 0.0,
+  "pos": 5.960464477539063e-08,
+  "vel": 4.5299530029296875e-06,
+  "prev_action": 0.013090014457702637,
+  "action": 0.004635661840438843,
+  "target_diff_deg": 0.30000131207491654,
+  "target_mismatch_steps": 10.0
+ },
+ "pass": true
+}

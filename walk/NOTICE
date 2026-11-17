@@ -1,0 +1,12 @@
+mp3_walk_policy
+Copyright 2026 MangDang
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This software uses or builds on:
+- BAM (Better Actuator Models), Rhoban, Apache License 2.0: https://github.com/Rhoban/bam
+  (used through MangDang's copy with the MD01 servo parameters).
+- The Stanford Pupper gait and kinematics, as ported to C in MangDang's minipupperesp firmware,
+  compiled on the host to build the teacher tables and to run the firmware trot on the robot.
+- mjlab, MuJoCo and MuJoCo Warp (Apache License 2.0), NVIDIA Warp (Apache License 2.0),
+  RSL-RL (BSD 3-Clause) and PyTorch (BSD-style).

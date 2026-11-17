@@ -1,0 +1,158 @@
+{
+ "about": "The Mini Pupper v4 SKU1 v2's servo <-> policy contract: SKU2's signs and stand (the same legs, MD01 modules and firmware IK), this robot's calibration.",
+ "servo_order": [
+  "FR abduction",
+  "FR hip",
+  "FR knee",
+  "FL abduction",
+  "FL hip",
+  "FL knee",
+  "RR abduction",
+  "RR hip",
+  "RR knee",
+  "RL abduction",
+  "RL hip",
+  "RL knee"
+ ],
+ "joint_order": [
+  "FR_hip",
+  "FR_thigh",
+  "FR_calf",
+  "FL_hip",
+  "FL_thigh",
+  "FL_calf",
+  "RR_hip",
+  "RR_thigh",
+  "RR_calf",
+  "RL_hip",
+  "RL_thigh",
+  "RL_calf"
+ ],
+ "policy_targets": [
+  "FR_hip",
+  "FR_thigh",
+  "FL_hip",
+  "FL_thigh",
+  "RR_hip",
+  "RR_thigh",
+  "RL_hip",
+  "RL_thigh",
+  "FR_knee_drive",
+  "FL_knee_drive",
+  "RR_knee_drive",
+  "RL_knee_drive"
+ ],
+ "signs": [
+  -1.0,
+  1.0,
+  -1.0,
+  -1.0,
+  1.0,
+  1.0,
+  -1.0,
+  1.0,
+  -1.0,
+  -1.0,
+  1.0,
+  1.0
+ ],
+ "stand_policy_rad": [
+  -0.0,
+  0.18360514665129954,
+  0.056627207580955824,
+  -0.0,
+  -0.18360514665129954,
+  0.056627207580955824,
+  -0.0,
+  0.18360514665129954,
+  0.056627207580955824,
+  -0.0,
+  -0.18360514665129954,
+  0.056627207580955824
+ ],
+ "stand_joint_rad": [
+  -0.0,
+  0.18360514665129954,
+  0.24023235423225536,
+  -0.0,
+  -0.18360514665129954,
+  -0.24023235423225536,
+  -0.0,
+  0.18360514665129954,
+  0.24023235423225536,
+  -0.0,
+  -0.18360514665129954,
+  -0.24023235423225536
+ ],
+ "tendon_coefs": {
+  "FR": {
+   "FR_thigh": -1.0,
+   "FR_calf": 1.0
+  },
+  "FL": {
+   "FL_thigh": 1.0,
+   "FL_calf": -1.0
+  },
+  "RR": {
+   "RR_thigh": -1.0,
+   "RR_calf": 1.0
+  },
+  "RL": {
+   "RL_thigh": 1.0,
+   "RL_calf": -1.0
+  }
+ },
+ "offsets_deg": [
+  -9.0,
+  7.0,
+  -15.0,
+  6.0,
+  -34.0,
+  -33.0,
+  -3.61,
+  25.0,
+  17.0,
+  -6.0,
+  8.0,
+  4.0
+ ],
+ "stand_dd": [
+  1640,
+  1483,
+  1701,
+  1495,
+  1892,
+  1883,
+  1586,
+  1304,
+  1383,
+  1610,
+  1474,
+  1513
+ ],
+ "stand_ticks": [
+  482,
+  534,
+  462,
+  530,
+  399,
+  402,
+  500,
+  593,
+  567,
+  492,
+  537,
+  524
+ ],
+ "geometry": {
+  "th1n_deg": -55.5198,
+  "th2n_deg": 41.7555,
+  "target_hip_height_mm": 70.0,
+  "source": "the firmware IK's neutral pose (foot under the hip axis, 70 mm below, as measured on SKU2), solved in the model's own link geometry"
+ },
+ "sources": {
+  "src/mp4_recovery/robot/assets/sku_1/pupper.xml": "411de14dfe1844f25e58d2aa237acf64b34bc6dce841057da8d981f977aab2ac",
+  "src/mp4_recovery/robot/assets/sku_1/servo_map.json": "953af0efb4fe85b9d1429707e9acdc03d636011552bb2d30cd1d7c763b302bb0"
+ },
+ "calibration": "SKU1 v2 (405 g): the calibration of mpv2onlyRL's default.mpxp (sku1v2_405_walk_s2)"
+}

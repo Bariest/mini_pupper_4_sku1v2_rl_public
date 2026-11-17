@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+runs/
+logs/
+MUJOCO_LOG.TXT
+wandb/
+.venv/
+.venv-pi/

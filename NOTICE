@@ -1,0 +1,19 @@
+mini_pupper_4_sku1v2_rl
+Copyright 2026 MangDang
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository combines, for the Mini Pupper 4 SKU1 v2:
+
+- walk/: mp3_walk_policy (RLmp4), Copyright 2026 MangDang, Apache License 2.0 (walk/LICENSE, walk/NOTICE),
+  with its SKU1 v2 additions (MP3_ROBOT=sku1v2, MP3_MASSES, tools/train_sku1v2_*.ps1).
+- recovery/: mini_pupper_4_recovery, Copyright 2026 MangDang, Apache License 2.0 (recovery/LICENSE, recovery/NOTICE),
+  with its SKU1 v2 additions (MP4R_ROBOT=sku1v2, docs/SKU1V2.md, tools/sku1v2_*.py).
+- third_party/bam/: BAM (Better Actuator Models) by Marc Duclusaud and Gregoire Passault (Rhoban),
+  Apache License 2.0 (third_party/bam/LICENSE), in MangDang's copy with the MD01 servo parameters.
+- third_party/minipupperesp/: the SKU1 simulation model (sim/model) and the Stanford Pupper gait and kinematics as
+  ported to C (main/stanford_*.c, .h) from MangDang's minipupperesp firmware.
+- tools/export_mpxp.py: from the mpv2onlyRL firmware (tools/policy/export_mpxp.py), Apache License 2.0.
+
+Training uses mjlab, MuJoCo and MuJoCo Warp (Apache License 2.0), NVIDIA Warp (Apache License 2.0),
+RSL-RL (BSD 3-Clause) and PyTorch (BSD-style), installed by setup.ps1.

@@ -1,0 +1,30 @@
+{
+ "policy": "policies/stock_beta5_s1",
+ "arm": "stock",
+ "vx": 0.1,
+ "steps": 250,
+ "mount": "swap_xy",
+ "exact": {
+  "ang_vel": 0.0,
+  "gravity": 5.960464477539063e-08,
+  "command": 0.0,
+  "pos": 4.470348358154297e-08,
+  "vel": 4.932284355163574e-06,
+  "prev_action": 1.1920928955078125e-07,
+  "action": 2.980232238769531e-07,
+  "target_diff_deg": 2.47085594645699e-06,
+  "target_mismatch_steps": 0.0
+ },
+ "quantised": {
+  "ang_vel": 0.0008726119995117188,
+  "gravity": 0.028928637504577637,
+  "command": 0.0,
+  "pos": 4.470348358154297e-08,
+  "vel": 4.932284355163574e-06,
+  "prev_action": 0.013090014457702637,
+  "action": 0.012409090995788574,
+  "target_diff_deg": 0.3000007818321699,
+  "target_mismatch_steps": 12.0
+ },
+ "pass": true
+}

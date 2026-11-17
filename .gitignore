@@ -1,0 +1,25 @@
+# Python environment (setup.ps1)
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Training output: runs, checkpoints, logs (train.ps1, check.ps1)
+runs/
+out/
+MUJOCO_LOG.TXT
+
+# Policies made by training (keep a result by copying it to results/)
+walk/policies/sku1v2_405_walk_s*/
+walk/policies/sku1v2_405_stairs_narrow_*/
+walk/policies/check*/
+recovery/policies/sku1v2_getup_s*/
+recovery/data/searched_motions_sku1v2/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store

@@ -1,0 +1,333 @@
+{
+ "task": {
+  "options": {
+   "arm": "bam_t5ub06",
+   "num_envs": 1024,
+   "noise_start": {
+    "ang_vel": 0.02,
+    "gravity": 0.01,
+    "pos": 0.002,
+    "vel": 0.05
+   },
+   "noise_end": {
+    "ang_vel": [
+     0.02,
+     0.02,
+     0.191237
+    ],
+    "gravity": [
+     0.177033,
+     0.254203,
+     0.291005
+    ],
+    "pos": [
+     0.005555,
+     0.011213,
+     0.002,
+     0.004242,
+     0.012273,
+     0.002,
+     0.002,
+     0.005928,
+     0.002,
+     0.004398,
+     0.002687,
+     0.002
+    ],
+    "vel": [
+     0.411952,
+     0.096427,
+     0.05,
+     0.389065,
+     0.110445,
+     0.05882,
+     0.129428,
+     0.142161,
+     0.05,
+     0.476616,
+     0.125211,
+     0.057773
+    ]
+   },
+   "noise_ramp": true,
+   "noisy": true,
+   "randomise": true,
+   "chain_ms": [
+    8.0,
+    19.0
+   ],
+   "vx_range": [
+    0.05,
+    0.2
+   ],
+   "action_scale": [
+    0.25,
+    0.5,
+    0.5,
+    0.25,
+    0.5,
+    0.5,
+    0.25,
+    0.5,
+    0.5,
+    0.25,
+    0.5,
+    0.5
+   ],
+   "episode_s": 20.0,
+   "visuals": false,
+   "omni": false,
+   "speed_range": [
+    0.05,
+    0.12
+   ],
+   "wz_max": 0.6,
+   "rel_turning": 0.5,
+   "rel_spin": 0.1,
+   "fixed_command": null,
+   "resample_s": [
+    5.0,
+    10.0
+   ],
+   "stops": false,
+   "schedules": 16384,
+   "schedule_seed": 0,
+   "terrain": "rough",
+   "rows": 10,
+   "tile": 1.6,
+   "terrain_seed": 0,
+   "max_init_level": 2,
+   "vx_max": 0.12,
+   "rel_standing": 0.1,
+   "history": 10,
+   "masses_json": "sku2_masses_478g.json",
+   "self_collision": true,
+   "friction_range": [
+    0.4,
+    1.3
+   ],
+   "foot_solref": [
+    0.01,
+    1.0
+   ],
+   "push_mps": 0.05,
+   "level": null,
+   "heading": "loop",
+   "heading_kp": 2.0,
+   "heading_turn": 1.0,
+   "rel_heading": 0.75,
+   "alive": 0.0,
+   "terminated": 0.0,
+   "progress": 2.0,
+   "stumble": -0.5,
+   "clearance": "apex",
+   "clearance_weight": -2.0,
+   "clearance_target": 0.025,
+   "foot_softness": [
+    0.005,
+    0.02
+   ]
+  },
+  "arm": "bam_t5ub06",
+  "arm_params": {
+   "roles": {
+    "abd": {
+     "params": "mp3_walk_policy/data/bam_t5ub06_id_3_m6.json",
+     "sha256": "16596b33c70a5fd574158292425b81b55ee988a11221ea9fae7089caf46fb601",
+     "command_delay_ms": 1
+    },
+    "hip": {
+     "params": "mp3_walk_policy/data/bam_t5ub06_id_2_m6.json",
+     "sha256": "d99fae0ed91bed9261d0ff6eb8362e76d91d3bfe150839cdf2d89cac8058a202",
+     "command_delay_ms": 5
+    },
+    "knee": {
+     "params": "mp3_walk_policy/data/bam_t5ub06_id_3_m6.json",
+     "sha256": "16596b33c70a5fd574158292425b81b55ee988a11221ea9fae7089caf46fb601",
+     "command_delay_ms": 1
+    }
+   },
+   "scales": [],
+   "vin_range": null,
+   "stiff_frictionloss": false
+  },
+  "latency_steps": [
+   1,
+   5,
+   1
+  ],
+  "decimation": 20,
+  "physics_dt": 0.001,
+  "sources": {
+   "mpx-sim/src/mpx_sim/model/sku_2/pupper.xml": "7bd8ecc99c261936d04a03d41d17868ad573250d34739d85c809836e467db9b4",
+   "mpx-sim/src/mpx_sim/model/servo_profiles.json": "8094936a013f59bd3afe2dc6e9838437ee08a9c6692163daae64c64b3f46d761",
+   "mp3_walk_policy/data/sku2_masses.json": "898d43f432b6bf35e4881d073deb33220985816d235dbfbd3be7175999d6547f"
+  }
+ },
+ "terrain_task": true,
+ "variant": "C",
+ "variant_settings": {
+  "arm": "bam_t5ub06",
+  "history": 10,
+  "init": "policies/bam_t5ub06_stops_v1"
+ },
+ "runner": {
+  "seed": 4,
+  "num_steps_per_env": 24,
+  "max_iterations": 1200,
+  "obs_groups": {
+   "actor": [
+    "actor"
+   ],
+   "critic": [
+    "critic"
+   ]
+  },
+  "save_interval": 50,
+  "experiment_name": "mp3_terrain",
+  "run_name": "",
+  "logger": "tensorboard",
+  "wandb_project": "mp3_walk_policy",
+  "wandb_tags": [],
+  "resume": false,
+  "load_run": ".*",
+  "load_checkpoint": "model_.*.pt",
+  "clip_actions": 1.0,
+  "upload_model": true,
+  "class_name": "OnPolicyRunner",
+  "actor": {
+   "hidden_dims": [
+    128,
+    128,
+    64
+   ],
+   "activation": "elu",
+   "obs_normalization": false,
+   "distribution_cfg": {
+    "init_std": 0.1,
+    "std_type": "scalar"
+   }
+  },
+  "critic": {
+   "hidden_dims": [
+    128,
+    128,
+    64
+   ],
+   "activation": "elu",
+   "obs_normalization": false
+  },
+  "algorithm": {
+   "num_learning_epochs": 5,
+   "num_mini_batches": 4,
+   "learning_rate": 0.0001,
+   "schedule": "adaptive",
+   "gamma": 0.99,
+   "lam": 0.95,
+   "entropy_coef": 0.005,
+   "desired_kl": 0.01,
+   "max_grad_norm": 1.0,
+   "value_loss_coef": 1.0,
+   "use_clipped_value_loss": true,
+   "clip_param": 0.2,
+   "normalize_advantage_per_mini_batch": false,
+   "optimizer": "adam",
+   "anchor_path": "anchor_rescaled.pt",
+   "anchor_sha256": "3fa85c7d7b5773fbba7f29ac025c779f2b1199b0b6a5fc12e5ff48306a7fa871",
+   "anchor_beta0": 5.0,
+   "anchor_hold_iters": 100,
+   "anchor_decay_iters": 300,
+   "anchor_beta_floor": 0.0,
+   "anchor_obs_group": "anchor",
+   "actor_warmup_iters": 50,
+   "rnd_cfg": null,
+   "symmetry_cfg": null
+  },
+  "multi_gpu": null
+ },
+ "algorithm_class": "mp3_walk_policy.algorithms.AnchorPPO",
+ "masses_sha256": "2e0416c1d49583778f4023485caf5dbaf3a47ba2846367b1dc79d02a0475bd9b",
+ "init": "policies/bam_t5ub06_stops_v1",
+ "init_rescaled_sha256": "f9f056a4cdd751f981c57bfc1592fd8c04a6bd4623077be1481f7b965a50a84f",
+ "init_std": 0.1,
+ "critic_warmup": 50,
+ "lr0": 0.0001,
+ "noise": "n2",
+ "argv": [
+  "scripts/train_terrain.py",
+  "--variant",
+  "C",
+  "--heading",
+  "loop",
+  "--foot-softness",
+  "0.005",
+  "0.02",
+  "--friction",
+  "0.4",
+  "1.3",
+  "--vx-max",
+  "0.12",
+  "--clearance",
+  "apex",
+  "--clearance-weight",
+  "-2",
+  "--stumble",
+  "-0.5",
+  "--progress",
+  "2",
+  "--envs",
+  "1024",
+  "--terrain",
+  "rough",
+  "--history",
+  "10",
+  "--iters",
+  "1200",
+  "--seed",
+  "4",
+  "--tag",
+  "rough"
+ ],
+ "training_chain": [
+  {
+   "step": 1,
+   "start": "policies/bam_t5ub06_stops_v1 (variant C)",
+   "argv": [
+    "scripts/train_terrain.py",
+    "--variant",
+    "C",
+    "--heading",
+    "loop",
+    "--foot-softness",
+    "0.005",
+    "0.02",
+    "--friction",
+    "0.4",
+    "1.3",
+    "--vx-max",
+    "0.12",
+    "--clearance",
+    "apex",
+    "--clearance-weight",
+    "-2",
+    "--stumble",
+    "-0.5",
+    "--progress",
+    "2",
+    "--envs",
+    "1024",
+    "--terrain",
+    "rough",
+    "--history",
+    "10",
+    "--iters",
+    "1200",
+    "--seed",
+    "4",
+    "--tag",
+    "rough"
+   ]
+  }
+ ],
+ "exported_checkpoint": "step 1, model_700.pt"
+}

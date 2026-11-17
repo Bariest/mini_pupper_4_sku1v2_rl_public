@@ -1,0 +1,322 @@
+{
+ "verdict": "pass",
+ "failed": [],
+ "missing": [],
+ "starts": {
+  "left": {
+   "status": "pass",
+   "checks": {
+    "success": {
+     "value": 0.99609375,
+     "limit": 0.9,
+     "status": "pass"
+    },
+    "t50": {
+     "value": 1.4800000190734863,
+     "limit": 5.0,
+     "status": "pass"
+    },
+    "t90": {
+     "value": 1.600000023841858,
+     "limit": 6.5,
+     "status": "pass"
+    },
+    "rev5": {
+     "value": 2.0990880820171145,
+     "limit": 2.178215576484641,
+     "status": "pass"
+    },
+    "pow3": {
+     "value": 0.21882116197440252,
+     "limit": 0.37457311478603356,
+     "status": "pass"
+    },
+    "speed_rms": {
+     "value": 3.8091325270943344,
+     "limit": 4.851472688208655,
+     "status": "pass"
+    },
+    "base_force_peak_N": {
+     "value": 0.0,
+     "limit": 151.51091262817383,
+     "status": "pass"
+    },
+    "abd_limit_peak_Nm": {
+     "value": 0.006644842587411236,
+     "limit": 0.9617856502532947,
+     "status": "pass"
+    }
+   }
+  },
+  "right": {
+   "status": "pass",
+   "checks": {
+    "success": {
+     "value": 1.0,
+     "limit": 0.9,
+     "status": "pass"
+    },
+    "t50": {
+     "value": 3.0999999046325684,
+     "limit": 5.0,
+     "status": "pass"
+    },
+    "t90": {
+     "value": 3.140000104904175,
+     "limit": 6.5,
+     "status": "pass"
+    },
+    "rev5": {
+     "value": 0.9958037954630636,
+     "limit": 2.8034292556746916,
+     "status": "pass"
+    },
+    "pow3": {
+     "value": 0.35220561552189567,
+     "limit": 0.5203980813205107,
+     "status": "pass"
+    },
+    "speed_rms": {
+     "value": 3.004004154354334,
+     "limit": 5.176545791691363,
+     "status": "pass"
+    },
+    "base_force_peak_N": {
+     "value": 0.0,
+     "limit": 149.28636566162103,
+     "status": "pass"
+    },
+    "abd_limit_peak_Nm": {
+     "value": 0.3460872933268546,
+     "limit": 0.6366077828407287,
+     "status": "pass"
+    }
+   }
+  },
+  "nose": {
+   "status": "pass",
+   "checks": {
+    "success": {
+     "value": 0.99609375,
+     "limit": 0.9,
+     "status": "pass"
+    },
+    "t50": {
+     "value": 1.0800000429153442,
+     "limit": 5.0,
+     "status": "pass"
+    },
+    "t90": {
+     "value": 1.2999999523162842,
+     "limit": 6.5,
+     "status": "pass"
+    },
+    "rev5": {
+     "value": 1.0705895321340946,
+     "limit": 3.065139803082849,
+     "status": "pass"
+    },
+    "pow3": {
+     "value": 0.2411989630367381,
+     "limit": 0.48806697192650067,
+     "status": "pass"
+    },
+    "speed_rms": {
+     "value": 3.571009628009051,
+     "limit": 5.297228735429534,
+     "status": "pass"
+    },
+    "base_force_peak_N": {
+     "value": 173.59612731933592,
+     "limit": 279.3484405517578,
+     "status": "pass"
+    },
+    "abd_limit_peak_Nm": {
+     "value": 0.0005125850206240882,
+     "limit": 0.6935600030422208,
+     "status": "pass"
+    }
+   }
+  },
+  "back": {
+   "status": "pass",
+   "checks": {
+    "success": {
+     "value": 1.0,
+     "limit": 0.85,
+     "status": "pass"
+    },
+    "t50": {
+     "value": 2.6500000953674316,
+     "limit": 5.0,
+     "status": "pass"
+    },
+    "t90": {
+     "value": 2.7200000286102295,
+     "limit": 6.5,
+     "status": "pass"
+    },
+    "rev5": {
+     "value": 1.3467322241960242,
+     "limit": 2.4867627414670608,
+     "status": "pass"
+    },
+    "pow3": {
+     "value": 0.34117290040578935,
+     "limit": 0.4192676755709035,
+     "status": "pass"
+    },
+    "speed_rms": {
+     "value": 3.3346333149820566,
+     "limit": 5.071455750183932,
+     "status": "pass"
+    },
+    "base_force_peak_N": {
+     "value": 0.0,
+     "limit": 225.28912445068357,
+     "status": "pass"
+    },
+    "abd_limit_peak_Nm": {
+     "value": 0.03573341220617294,
+     "limit": 0.8538327133655547,
+     "status": "pass"
+    }
+   }
+  },
+  "midfall": {
+   "status": "pass",
+   "checks": {
+    "success": {
+     "value": 0.9921875,
+     "limit": 0.85,
+     "status": "pass"
+    },
+    "t50": {
+     "value": 2.559999942779541,
+     "limit": 5.0,
+     "status": "pass"
+    },
+    "t90": {
+     "value": 3.0799999237060547,
+     "limit": 6.5,
+     "status": "pass"
+    },
+    "rev5": {
+     "value": 1.452079695762847,
+     "limit": 2.1381133162115558,
+     "status": "pass"
+    },
+    "pow3": {
+     "value": 0.3763324400195628,
+     "limit": 0.43172794809601917,
+     "status": "pass"
+    },
+    "speed_rms": {
+     "value": 2.9630600176751614,
+     "limit": 4.680993292363219,
+     "status": "pass"
+    },
+    "base_force_peak_N": {
+     "value": 99.33145065307613,
+     "limit": 282.7959375,
+     "status": "pass"
+    },
+    "abd_limit_peak_Nm": {
+     "value": 0.24991752430796565,
+     "limit": 0.824644328355788,
+     "status": "pass"
+    }
+   }
+  },
+  "crouch": {
+   "status": "pass",
+   "checks": {
+    "t50": {
+     "value": 0.9399999976158142,
+     "limit": 5.0,
+     "status": "pass"
+    },
+    "t90": {
+     "value": 1.0399999618530273,
+     "limit": 6.5,
+     "status": "pass"
+    },
+    "rev5": {
+     "value": 0.9493226937241417,
+     "limit": 1.739716928716891,
+     "status": "pass"
+    },
+    "pow3": {
+     "value": 0.22438719885347214,
+     "limit": 0.41648280357284373,
+     "status": "pass"
+    },
+    "speed_rms": {
+     "value": 3.689733311533928,
+     "limit": 4.6754843309208765,
+     "status": "pass"
+    },
+    "base_force_peak_N": {
+     "value": 0.0,
+     "limit": 155.52442382812498,
+     "status": "pass"
+    },
+    "abd_limit_peak_Nm": {
+     "value": 0.07226147577166528,
+     "limit": 0.6174976623058314,
+     "status": "pass"
+    }
+   }
+  },
+  "random": {
+   "status": "pass",
+   "checks": {
+    "success": {
+     "value": 0.99609375,
+     "limit": 0.85,
+     "status": "pass"
+    },
+    "t50": {
+     "value": 1.7000000476837158,
+     "limit": 5.0,
+     "status": "pass"
+    },
+    "t90": {
+     "value": 3.0799999237060547,
+     "limit": 6.5,
+     "status": "pass"
+    },
+    "rev5": {
+     "value": 1.3040565751217499,
+     "limit": 2.344941472959381,
+     "status": "pass"
+    },
+    "pow3": {
+     "value": 0.2873869493005673,
+     "limit": 0.4199710090676569,
+     "status": "pass"
+    },
+    "speed_rms": {
+     "value": 3.4435731265693903,
+     "limit": 4.948574591638903,
+     "status": "pass"
+    },
+    "base_force_peak_N": {
+     "value": 133.65236587524413,
+     "limit": 253.42005798339832,
+     "status": "pass"
+    },
+    "abd_limit_peak_Nm": {
+     "value": 0.34987050592899277,
+     "limit": 0.837569375038146,
+     "status": "pass"
+    }
+   }
+  }
+ },
+ "settings": {
+  "seed": 12,
+  "robots": 256,
+  "seconds": 8.0
+ }
+}

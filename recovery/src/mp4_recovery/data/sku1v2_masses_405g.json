@@ -1,0 +1,11 @@
+{
+ "robot": "sku1v2",
+ "total_kg": 0.405,
+ "module_kg": 0.06682,
+ "leg_kg": 0.0065,
+ "rear_share": 0.5575,
+ "base_com_x_m": -0.01682,
+ "source": "SKU1V2 as weighed 2026-10-26 (shoes, battery): 405 g total, the front and rear foot pairs 177 / 223 g at the stand; a leg 6.5 g and a bare MD01 module 66.82 g as SKU2 (the same parts); the base COM x is solved for the rear share (tools/robot_masses.py, model pupper.xml sha256 411de14dfe18)",
+ "front_pair_kg": 0.177,
+ "rear_pair_kg": 0.223
+}

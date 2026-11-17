@@ -1,0 +1,163 @@
+{
+ "checkpoint": "runs/ppo/20261005_212918_stock_s3_v3n2/model_1299.pt",
+ "arm": "stock",
+ "noise": "n2",
+ "clean": {
+  "0.05": {
+   "metrics": {
+    "n": 4,
+    "fall_frac": 0.0,
+    "speed": 0.041444916278123856,
+    "speed_sd": 1.9594106959175406e-07,
+    "lateral_mm": 76.42991638183594,
+    "yaw_deg": 11.83446979522705,
+    "f0_hz": 2.5,
+    "clearance_mm": 13.42601490020752,
+    "pitch_deg": 1.7397217750549316
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "clearance": true,
+    "pitch": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "0.10": {
+   "metrics": {
+    "n": 4,
+    "fall_frac": 0.0,
+    "speed": 0.08769716322422028,
+    "speed_sd": 0.00027338037034496665,
+    "lateral_mm": 20.563610076904297,
+    "yaw_deg": 0.7913500666618347,
+    "f0_hz": 2.625,
+    "clearance_mm": 16.913497924804688,
+    "pitch_deg": 1.820451259613037
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "clearance": true,
+    "pitch": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "0.15": {
+   "metrics": {
+    "n": 4,
+    "fall_frac": 0.0,
+    "speed": 0.12475400418043137,
+    "speed_sd": 0.00029890798032283783,
+    "lateral_mm": 4.07494592666626,
+    "yaw_deg": 0.6046949625015259,
+    "f0_hz": 2.75,
+    "clearance_mm": 16.90105628967285,
+    "pitch_deg": 1.774138331413269
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "clearance": true,
+    "pitch": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "0.20": {
+   "metrics": {
+    "n": 4,
+    "fall_frac": 0.0,
+    "speed": 0.1615622639656067,
+    "speed_sd": 0.0009862998267635703,
+    "lateral_mm": 23.147993087768555,
+    "yaw_deg": 0.6776138544082642,
+    "f0_hz": 2.75,
+    "clearance_mm": 16.756195068359375,
+    "pitch_deg": 1.431857943534851
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "clearance": true,
+    "pitch": true,
+    "f0": true,
+    "pass": true
+   }
+  }
+ },
+ "robust_0.10": {
+  "metrics": {
+   "n": 256,
+   "fall_frac": 0.0,
+   "speed": 0.08229578286409378,
+   "speed_sd": 0.011507627554237843,
+   "lateral_mm": 46.112396240234375,
+   "yaw_deg": 7.353381156921387,
+   "f0_hz": 2.75,
+   "clearance_mm": 15.670674324035645,
+   "pitch_deg": 1.3757309913635254
+  },
+  "gates": {
+   "no_falls": true,
+   "rhythm_f0": true,
+   "pass": true
+  }
+ },
+ "safety_2xN2": {
+  "metrics": {
+   "n": 256,
+   "fall_frac": 0.0,
+   "speed": 0.08028320968151093,
+   "speed_sd": 0.011161653324961662,
+   "lateral_mm": 39.576717376708984,
+   "yaw_deg": 6.584469795227051,
+   "f0_hz": 2.75,
+   "clearance_mm": 15.449482917785645,
+   "pitch_deg": 1.3335785865783691
+  },
+  "pass": true
+ },
+ "robust_N1": {
+  "metrics": {
+   "n": 256,
+   "fall_frac": 0.0,
+   "speed": 0.07776011526584625,
+   "speed_sd": 0.011654272675514221,
+   "lateral_mm": 39.63291549682617,
+   "yaw_deg": 6.651296615600586,
+   "f0_hz": 2.75,
+   "clearance_mm": 15.044133186340332,
+   "pitch_deg": 1.3162343502044678
+  }
+ },
+ "open_loop": {
+  "closed": {
+   "n": 256,
+   "fall_frac": 0.0,
+   "speed": 0.0813593938946724,
+   "speed_sd": 0.011983348987996578,
+   "lateral_mm": 45.124053955078125,
+   "yaw_deg": 6.947564601898193,
+   "f0_hz": 2.625,
+   "clearance_mm": 16.23012351989746,
+   "pitch_deg": 1.4324880838394165
+  },
+  "blind": {
+   "n": 256,
+   "fall_frac": 0.0,
+   "speed": 0.07699479907751083,
+   "speed_sd": 0.011462143622338772,
+   "lateral_mm": 50.78915023803711,
+   "yaw_deg": 7.801398277282715,
+   "f0_hz": 2.625,
+   "clearance_mm": 16.85687828063965,
+   "pitch_deg": 1.697279453277588
+  },
+  "ratio": 0.9463541380014218,
+  "pass": true
+ },
+ "pass": true
+}

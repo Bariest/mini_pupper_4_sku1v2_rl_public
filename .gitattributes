@@ -1,0 +1,14 @@
+# Text files are stored with LF; PowerShell scripts check out with CRLF on every system.
+* text=auto
+*.ps1 text eol=crlf
+
+# Binary data
+*.npz binary
+*.npy binary
+*.pt binary
+*.mpxp binary
+*.stl binary
+*.STL binary
+*.dll binary
+*.gif binary
+*.png binary

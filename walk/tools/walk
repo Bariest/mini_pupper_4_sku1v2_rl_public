@@ -1,0 +1,3 @@
+#!/bin/sh
+# On the Pi: run a deployed policy by hand (mp3_walk_policy/demo.py). `~/walk/tools/walk --help` for the options.
+cd "$HOME/walk" && PYTHONPATH="$HOME/walk:$HOME/mp3link_calib" exec python3 -B -m mp3_walk_policy.demo "$@"

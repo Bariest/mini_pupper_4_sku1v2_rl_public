@@ -1,0 +1,326 @@
+{
+ "task": {
+  "options": {
+   "arm": "bam_t5ub06",
+   "num_envs": 1024,
+   "noise_start": {
+    "ang_vel": 0.02,
+    "gravity": 0.01,
+    "pos": 0.002,
+    "vel": 0.05
+   },
+   "noise_end": {
+    "ang_vel": [
+     0.02,
+     0.02,
+     0.191237
+    ],
+    "gravity": [
+     0.177033,
+     0.254203,
+     0.291005
+    ],
+    "pos": [
+     0.005555,
+     0.011213,
+     0.002,
+     0.004242,
+     0.012273,
+     0.002,
+     0.002,
+     0.005928,
+     0.002,
+     0.004398,
+     0.002687,
+     0.002
+    ],
+    "vel": [
+     0.411952,
+     0.096427,
+     0.05,
+     0.389065,
+     0.110445,
+     0.05882,
+     0.129428,
+     0.142161,
+     0.05,
+     0.476616,
+     0.125211,
+     0.057773
+    ]
+   },
+   "noise_ramp": true,
+   "noisy": true,
+   "randomise": true,
+   "chain_ms": [
+    8.0,
+    19.0
+   ],
+   "vx_range": [
+    0.05,
+    0.2
+   ],
+   "action_scale": [
+    0.25,
+    0.5,
+    0.5,
+    0.25,
+    0.5,
+    0.5,
+    0.25,
+    0.5,
+    0.5,
+    0.25,
+    0.5,
+    0.5
+   ],
+   "episode_s": 20.0,
+   "visuals": false,
+   "omni": false,
+   "speed_range": [
+    0.05,
+    0.12
+   ],
+   "wz_max": 0.6,
+   "rel_turning": 0.5,
+   "rel_spin": 0.1,
+   "fixed_command": null,
+   "resample_s": [
+    5.0,
+    10.0
+   ],
+   "stops": false,
+   "schedules": 16384,
+   "schedule_seed": 0,
+   "terrain": "stairs_narrow",
+   "rows": 10,
+   "tile": 1.6,
+   "terrain_seed": 0,
+   "max_init_level": 9,
+   "narrow_risers": [
+    0.025,
+    0.045
+   ],
+   "vx_max": 0.12,
+   "rel_standing": 0.1,
+   "history": 10,
+   "masses_json": "sku1v2_masses.json",
+   "self_collision": true,
+   "friction_range": [
+    0.4,
+    1.3
+   ],
+   "foot_solref": [
+    0.01,
+    1.0
+   ],
+   "push_mps": 0.05,
+   "level": null,
+   "heading": "loop",
+   "heading_kp": 2.0,
+   "heading_turn": 1.0,
+   "rel_heading": 0.75,
+   "alive": 0.0,
+   "terminated": 0.0,
+   "progress": 2.0,
+   "stumble": -0.5,
+   "clearance": "apex",
+   "clearance_weight": -2.0,
+   "clearance_target": 0.025,
+   "foot_softness": [
+    0.005,
+    0.02
+   ],
+   "abduction": 0.0,
+   "leg_contact": -0.5,
+   "stair_layout": null,
+   "stair_width": null,
+   "stair_landing": null,
+   "privileged": false,
+   "tilt_limit": 1.0,
+   "stair_exit": true,
+   "heading_law": "pi",
+   "heading_wz": 0.4,
+   "cross_track": 0.0,
+   "cross_track_clip": 0.1,
+   "yaw_catch": null,
+   "yaw_catch_start": 0,
+   "heading_obs": false,
+   "heading_obs_noise": 0.035,
+   "heading_obs_bias": 0.0,
+   "heading_reward": 0.0
+  },
+  "arm": "bam_t5ub06",
+  "arm_params": {
+   "roles": {
+    "abd": {
+     "params": "mp3_walk_policy\\data\\bam_t5ub06_id_3_m6.json",
+     "sha256": "16596b33c70a5fd574158292425b81b55ee988a11221ea9fae7089caf46fb601",
+     "command_delay_ms": 1
+    },
+    "hip": {
+     "params": "mp3_walk_policy\\data\\bam_t5ub06_id_2_m6.json",
+     "sha256": "d99fae0ed91bed9261d0ff6eb8362e76d91d3bfe150839cdf2d89cac8058a202",
+     "command_delay_ms": 5
+    },
+    "knee": {
+     "params": "mp3_walk_policy\\data\\bam_t5ub06_id_3_m6.json",
+     "sha256": "16596b33c70a5fd574158292425b81b55ee988a11221ea9fae7089caf46fb601",
+     "command_delay_ms": 1
+    }
+   },
+   "scales": [],
+   "vin_range": null,
+   "stiff_frictionloss": false
+  },
+  "latency_steps": [
+   1,
+   5,
+   1
+  ],
+  "decimation": 20,
+  "physics_dt": 0.001,
+  "sources": {
+   "robot": "sku1v2",
+   "minipupperesp/sim/model/pupper.xml": "411de14dfe1844f25e58d2aa237acf64b34bc6dce841057da8d981f977aab2ac",
+   "minipupperesp/sim/model/servo_profiles.json": "8094936a013f59bd3afe2dc6e9838437ee08a9c6692163daae64c64b3f46d761",
+   "mp3_walk_policy/data/sku1v2_masses.json": "dbee7b583673b27e93b289057348fce3502032be27ddde476d6799adcf6b5b22"
+  }
+ },
+ "terrain_task": true,
+ "variant": "C",
+ "variant_settings": {
+  "arm": "bam_t5ub06",
+  "history": 10,
+  "init": null
+ },
+ "runner": {
+  "seed": 6,
+  "num_steps_per_env": 24,
+  "max_iterations": 1000,
+  "obs_groups": {
+   "actor": [
+    "actor"
+   ],
+   "critic": [
+    "critic"
+   ]
+  },
+  "save_interval": 50,
+  "experiment_name": "mp3_terrain",
+  "run_name": "",
+  "logger": "tensorboard",
+  "wandb_project": "mp3_walk_policy",
+  "wandb_tags": [],
+  "resume": false,
+  "load_run": ".*",
+  "load_checkpoint": "model_.*.pt",
+  "clip_actions": 1.0,
+  "upload_model": true,
+  "class_name": "OnPolicyRunner",
+  "actor": {
+   "hidden_dims": [
+    128,
+    128,
+    64
+   ],
+   "activation": "elu",
+   "obs_normalization": false,
+   "distribution_cfg": {
+    "init_std": 0.5,
+    "std_type": "scalar"
+   }
+  },
+  "critic": {
+   "hidden_dims": [
+    128,
+    128,
+    64
+   ],
+   "activation": "elu",
+   "obs_normalization": false
+  },
+  "algorithm": {
+   "num_learning_epochs": 5,
+   "num_mini_batches": 4,
+   "learning_rate": 0.0001,
+   "schedule": "adaptive",
+   "gamma": 0.99,
+   "lam": 0.95,
+   "entropy_coef": 0.005,
+   "desired_kl": 0.01,
+   "max_grad_norm": 1.0,
+   "value_loss_coef": 1.0,
+   "use_clipped_value_loss": true,
+   "clip_param": 0.2,
+   "normalize_advantage_per_mini_batch": false,
+   "optimizer": "adam",
+   "rnd_cfg": null,
+   "symmetry_cfg": null
+  },
+  "multi_gpu": null
+ },
+ "algorithm_class": "rsl_rl.algorithms.ppo.PPO",
+ "robot": "sku1v2",
+ "masses_sha256": "dbee7b583673b27e93b289057348fce3502032be27ddde476d6799adcf6b5b22",
+ "init": null,
+ "init_rescaled_sha256": null,
+ "init_std": 0.5,
+ "resume": "C:\\Users\\admin\\Documents\\sku1v2stairs4090\\sku1v2stairs4090\\RLmp4\\runs\\sku1v2_stairs\\20261025_174855_C_bam_t5ub06_s6_stairs_narrow_r40\\model_3898.pt",
+ "resume_sha256": "968c9358863a3ee810727004b7aa834b4e57aaf80dada60ffbbead70db3201d1",
+ "resume_rescaled": null,
+ "critic_warmup": 0,
+ "lr0": 0.0001,
+ "noise": "n2",
+ "repo_commit": "",
+ "repo_dirty": false,
+ "argv": [
+  "scripts\\train_terrain.py",
+  "--variant",
+  "C",
+  "--heading",
+  "loop",
+  "--foot-softness",
+  "0.005",
+  "0.02",
+  "--friction",
+  "0.4",
+  "1.3",
+  "--vx-max",
+  "0.12",
+  "--clearance",
+  "apex",
+  "--clearance-weight",
+  "-2",
+  "--stumble",
+  "-0.5",
+  "--progress",
+  "2",
+  "--envs",
+  "1024",
+  "--out",
+  "runs\\sku1v2_stairs",
+  "--terrain",
+  "stairs_narrow",
+  "--stair-exit",
+  "--tilt-limit",
+  "1.0",
+  "--heading-law",
+  "pi",
+  "--heading-wz",
+  "0.4",
+  "--max-init-level",
+  "9",
+  "--narrow-risers",
+  "0.025",
+  "0.045",
+  "--iters",
+  "1000",
+  "--resume",
+  "C:\\Users\\admin\\Documents\\sku1v2stairs4090\\sku1v2stairs4090\\RLmp4\\runs\\sku1v2_stairs\\20261025_174855_C_bam_t5ub06_s6_stairs_narrow_r40\\model_3898.pt",
+  "--seed",
+  "6",
+  "--tag",
+  "stairs_narrow_r45"
+ ]
+}

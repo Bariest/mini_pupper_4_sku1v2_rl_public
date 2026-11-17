@@ -1,0 +1,5 @@
+{
+ "steps_mm": [[20, 50], [25, 50], [25, 300]],
+ "width_mm": 200,
+ "note": "the 3D-printed test staircase on a 15 mm start plate: risers of 20, 25 and 25 mm on 50 mm treads, 200 mm wide, the landing after the third riser"
+}

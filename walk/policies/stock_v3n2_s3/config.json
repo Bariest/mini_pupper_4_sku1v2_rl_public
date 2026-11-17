@@ -1,0 +1,204 @@
+{
+ "task": {
+  "options": {
+   "arm": "stock",
+   "num_envs": 512,
+   "noise_start": {
+    "ang_vel": 0.02,
+    "gravity": 0.01,
+    "pos": 0.002,
+    "vel": 0.05
+   },
+   "noise_end": {
+    "ang_vel": [
+     0.02,
+     0.02,
+     0.191237
+    ],
+    "gravity": [
+     0.177033,
+     0.254203,
+     0.291005
+    ],
+    "pos": [
+     0.005555,
+     0.011213,
+     0.002,
+     0.004242,
+     0.012273,
+     0.002,
+     0.002,
+     0.005928,
+     0.002,
+     0.004398,
+     0.002687,
+     0.002
+    ],
+    "vel": [
+     0.411952,
+     0.096427,
+     0.05,
+     0.389065,
+     0.110445,
+     0.05882,
+     0.129428,
+     0.142161,
+     0.05,
+     0.476616,
+     0.125211,
+     0.057773
+    ]
+   },
+   "noise_ramp": true,
+   "noisy": true,
+   "randomise": true,
+   "chain_ms": [
+    8.0,
+    19.0
+   ],
+   "vx_range": [
+    0.05,
+    0.2
+   ],
+   "action_scale": [
+    0.1,
+    0.4,
+    0.42,
+    0.1,
+    0.4,
+    0.42,
+    0.1,
+    0.4,
+    0.42,
+    0.1,
+    0.4,
+    0.42
+   ],
+   "episode_s": 10.0,
+   "visuals": false
+  },
+  "arm": "stock",
+  "arm_params": {
+   "profile": "mpx-sim servo_profiles.json 'sim'",
+   "kp": 8.0,
+   "kv": 0.05,
+   "umax": 0.8,
+   "damping": 0.0381,
+   "armature": 0.0002,
+   "latency_ms": 5.0,
+   "source_sha256": "8094936a013f59bd3afe2dc6e9838437ee08a9c6692163daae64c64b3f46d761"
+  },
+  "latency_steps": [
+   5,
+   5
+  ],
+  "decimation": 20,
+  "physics_dt": 0.001,
+  "sources": {
+   "mpx-sim/src/mpx_sim/model/sku_2/pupper.xml": "7bd8ecc99c261936d04a03d41d17868ad573250d34739d85c809836e467db9b4",
+   "mp3_walk_policy/data/sku2_masses.json": "898d43f432b6bf35e4881d073deb33220985816d235dbfbd3be7175999d6547f",
+   "mpx-sim/src/mpx_sim/model/servo_profiles.json": "8094936a013f59bd3afe2dc6e9838437ee08a9c6692163daae64c64b3f46d761"
+  }
+ },
+ "runner": {
+  "seed": 3,
+  "num_steps_per_env": 24,
+  "max_iterations": 1300,
+  "obs_groups": {
+   "actor": [
+    "actor"
+   ],
+   "critic": [
+    "critic"
+   ]
+  },
+  "save_interval": 25,
+  "experiment_name": "mp3_walk",
+  "run_name": "",
+  "logger": "tensorboard",
+  "wandb_project": "mjlab",
+  "wandb_tags": [],
+  "resume": false,
+  "load_run": ".*",
+  "load_checkpoint": "model_.*.pt",
+  "clip_actions": 1.0,
+  "upload_model": true,
+  "class_name": "OnPolicyRunner",
+  "actor": {
+   "hidden_dims": [
+    128,
+    128,
+    64
+   ],
+   "activation": "elu",
+   "obs_normalization": false,
+   "distribution_cfg": {
+    "init_std": 0.8,
+    "std_type": "scalar"
+   }
+  },
+  "critic": {
+   "hidden_dims": [
+    128,
+    128,
+    64
+   ],
+   "activation": "elu",
+   "obs_normalization": false
+  },
+  "algorithm": {
+   "num_learning_epochs": 5,
+   "num_mini_batches": 4,
+   "learning_rate": 0.0001,
+   "schedule": "adaptive",
+   "gamma": 0.99,
+   "lam": 0.95,
+   "entropy_coef": 0.005,
+   "desired_kl": 0.01,
+   "max_grad_norm": 1.0,
+   "value_loss_coef": 1.0,
+   "use_clipped_value_loss": true,
+   "clip_param": 0.2,
+   "normalize_advantage_per_mini_batch": false,
+   "optimizer": "adam",
+   "anchor_path": "runs/clone/stock/clone.pt",
+   "anchor_sha256": "45010da5c5a3a936218c8b948843c3b07f5562cfbaba95cdb56916b79641653d",
+   "anchor_beta0": 20.0,
+   "anchor_hold_iters": 1300,
+   "anchor_decay_iters": 0,
+   "anchor_beta_floor": 0.0,
+   "anchor_obs_group": "anchor",
+   "actor_warmup_iters": 50,
+   "rnd_cfg": null,
+   "symmetry_cfg": null
+  },
+  "multi_gpu": null
+ },
+ "clone": "runs/clone/stock/clone.pt",
+ "clone_sha256": "45010da5c5a3a936218c8b948843c3b07f5562cfbaba95cdb56916b79641653d",
+ "noise": "n2",
+ "init_std": 0.1,
+ "fixed_std": true,
+ "critic_warmup": 50,
+ "lr0": 0.0001,
+ "argv": [
+  "scripts/train.py",
+  "--arm",
+  "stock",
+  "--clone",
+  "runs/clone/stock/clone.pt",
+  "--seed",
+  "3",
+  "--beta",
+  "20",
+  "--fixed-std",
+  "--critic-warmup",
+  "50",
+  "--lr0",
+  "1e-4",
+  "--noise",
+  "n2",
+  "--tag",
+  "v3n2"
+ ]
+}

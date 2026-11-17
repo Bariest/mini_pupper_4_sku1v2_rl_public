@@ -1,0 +1,3981 @@
+{
+ "checkpoint": "runs\\ppo\\20261008_102224_bam_t5ub06_stops_s1_st1\\model_1299.pt",
+ "arm": "bam_t5ub06",
+ "noise": "n2",
+ "takes": {
+  "takes": {
+   "000cb09b-1": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.019545365124940872,
+     "lift_mm": 17.81862449645996,
+     "along": 0.10925510310022742,
+     "cross": 0.002898278741462028,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.002711352426558733,
+     "lift_mm": 0.14446116983890533,
+     "drift": 0.00038875569589436054,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.009563762694597244,
+     "lift_mm": 19.877277374267578,
+     "along": 0.10837562382221222,
+     "cross": 0.0045272125862538815,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0022670719772577286,
+     "lift_mm": 0.18107426166534424,
+     "drift": 0.0008056899532675743,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.2449095249176025,
+     "lift_mm": 17.807851791381836,
+     "drift": 0.004580958280712366,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005120268324390054,
+     "lift_mm": 0.17088837921619415,
+     "drift": 5.006830633647041e-06,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.01221295166760683,
+     "lift_mm": 17.230838775634766,
+     "along": 0.11667308956384659,
+     "cross": -0.003510568058118224,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0014591675717383623,
+     "lift_mm": 0.14965049922466278,
+     "drift": 0.00024728570133447647,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0008178154821507633,
+     "lift_mm": 19.038759231567383,
+     "along": 0.10752630421932893,
+     "cross": 0.005395000553736033,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005931808846071362,
+     "lift_mm": 0.1723896712064743,
+     "drift": 0.00044298844295553863,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.014182507991790771,
+     "lift_mm": 18.179119110107422,
+     "along": 0.11554786562919617,
+     "cross": 0.0021506547927856445,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.005722619127482176,
+     "lift_mm": 0.26091840863227844,
+     "drift": 0.0003072064428124577,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.2390135526657104,
+     "lift_mm": 15.709668159484863,
+     "drift": 0.006554638966917992,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.001678443979471922,
+     "lift_mm": 0.17013493180274963,
+     "drift": 0.00012586827506311238,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.012695002369582653,
+     "lift_mm": 21.280380249023438,
+     "along": 0.11928111231356478,
+     "cross": 0.0006130201820672421,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0017532076453790069,
+     "lift_mm": 0.12908875942230225,
+     "drift": 0.0001516880001872778,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.020533382892608643,
+     "lift_mm": 18.953569412231445,
+     "along": 0.11328698694705963,
+     "cross": 0.0033584292978048325,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.002336702775210142,
+     "lift_mm": 0.15008357167243958,
+     "drift": 0.0005612895474769175,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0027336925268173218,
+     "lift_mm": 18.778413772583008,
+     "along": 0.10899962807141128,
+     "cross": 0.0005102438988645042,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    }
+   ],
+   "000cb09b-2": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.005790020804852247,
+     "lift_mm": 19.155122756958008,
+     "along": 0.10820731347167717,
+     "cross": 0.0055016518475404855,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005489358445629478,
+     "lift_mm": 0.1677619218826294,
+     "drift": 0.0005119881243444979,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0011931104818359017,
+     "lift_mm": 18.907039642333984,
+     "along": 0.10960587783079041,
+     "cross": 7.635798752222284e-05,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -9.108799713430926e-05,
+     "lift_mm": 0.22439566254615784,
+     "drift": 0.0011067052837461233,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.241957426071167,
+     "lift_mm": 15.050612449645996,
+     "drift": 0.005751198157668114,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0006346748559735715,
+     "lift_mm": 0.16892793774604797,
+     "drift": 3.079693851759657e-05,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.017464259639382362,
+     "lift_mm": 17.69285774230957,
+     "along": 0.1082292197636179,
+     "cross": 0.0028400421489218203,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0027657703030854464,
+     "lift_mm": 0.13875961303710938,
+     "drift": 0.0003581026685424149,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.011444429866969585,
+     "lift_mm": 19.917966842651367,
+     "along": 0.10863440483808517,
+     "cross": 0.004373840522021055,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.001581930206157267,
+     "lift_mm": 0.1871483325958252,
+     "drift": 0.0009033536189235747,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.2478632926940918,
+     "lift_mm": 17.453916549682617,
+     "drift": 0.002407272346317768,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005879726377315819,
+     "lift_mm": 0.17080175876617432,
+     "drift": 6.133273564046249e-05,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.016707682982087135,
+     "lift_mm": 17.314285278320312,
+     "along": 0.11577460914850235,
+     "cross": -0.0040314579382538795,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0010387542424723506,
+     "lift_mm": 0.1512225717306137,
+     "drift": 0.00030022423015907407,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.012201127596199512,
+     "lift_mm": 21.27977180480957,
+     "along": 0.1194029496774821,
+     "cross": 0.00047344679224091413,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0016249717446044087,
+     "lift_mm": 0.13063661754131317,
+     "drift": 0.0001591646869201213,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.01923769898712635,
+     "lift_mm": 18.70256996154785,
+     "along": 0.11351063847541809,
+     "cross": 0.0035754370037466288,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.005105682648718357,
+     "lift_mm": 0.15339627861976624,
+     "drift": 0.0006982263294048607,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.019537532702088356,
+     "lift_mm": 18.087261199951172,
+     "along": 0.11395329982042313,
+     "cross": 0.0018708579009398818,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    }
+   ],
+   "000cb09b-3": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.01954491436481476,
+     "lift_mm": 17.818626403808594,
+     "along": 0.10925624569659767,
+     "cross": 0.002897322198156624,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.002707211533561349,
+     "lift_mm": 0.14446303248405457,
+     "drift": 0.00038692812086082995,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.010949295945465565,
+     "lift_mm": 21.1929988861084,
+     "along": 0.11965099336759297,
+     "cross": 0.000861929929982283,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0007756269769743085,
+     "lift_mm": 0.12930947542190552,
+     "drift": 0.00028756819665431976,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.018250582739710808,
+     "lift_mm": 17.776504516601562,
+     "along": 0.11300063133239746,
+     "cross": 0.003720211097970605,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.005135627929121256,
+     "lift_mm": 0.1518893986940384,
+     "drift": 0.0007268700865097344,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.01853187195956707,
+     "lift_mm": 18.212112426757812,
+     "along": 0.11450262367725372,
+     "cross": 0.0021334111224859953,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0016157157951965928,
+     "lift_mm": 0.23842975497245789,
+     "drift": 0.0006354179931804538,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0005817959900014102,
+     "lift_mm": 19.62759780883789,
+     "along": 0.10848144673479834,
+     "cross": 0.005957253287554483,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0019331391667947173,
+     "lift_mm": 0.170975923538208,
+     "drift": 0.0004011633573099971,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.2387233972549438,
+     "lift_mm": 17.877674102783203,
+     "drift": 0.002746464218944311,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0009527573711238801,
+     "lift_mm": 0.1969747245311737,
+     "drift": 0.0005033504567109048,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.012363155372440815,
+     "lift_mm": 20.059391021728516,
+     "along": 0.10854437202215195,
+     "cross": 0.004945279564708471,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.001553732668980956,
+     "lift_mm": 0.18875114619731903,
+     "drift": 0.0008280647452920675,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.01692032814025879,
+     "lift_mm": 17.450809478759766,
+     "along": 0.11690521240234375,
+     "cross": -0.0030752418097108603,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0010453738505020738,
+     "lift_mm": 0.1509869396686554,
+     "drift": 0.0002676603908184916,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.001604278921149671,
+     "lift_mm": 18.861888885498047,
+     "along": 0.1095738831491797,
+     "cross": -0.00031211238308678085,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0013713653897866607,
+     "lift_mm": 0.24275854229927063,
+     "drift": 0.0010627133306115866,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.2483971118927002,
+     "lift_mm": 17.427881240844727,
+     "drift": 0.0017448851140215993,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    }
+   ],
+   "000cb09b-4": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.00023087889712769538,
+     "lift_mm": 18.921096801757812,
+     "along": 0.10972614173860838,
+     "cross": -0.00013055235721257802,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.00195630663074553,
+     "lift_mm": 0.24120044708251953,
+     "drift": 0.0011509894393384457,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.227828860282898,
+     "lift_mm": 18.05646324157715,
+     "drift": 0.002244998700916767,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005906591541133821,
+     "lift_mm": 0.17086324095726013,
+     "drift": 6.34979733149521e-05,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.020808100700378418,
+     "lift_mm": 19.395923614501953,
+     "along": 0.11431591957807541,
+     "cross": 0.0037053790874779224,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.004647672176361084,
+     "lift_mm": 0.14618970453739166,
+     "drift": 0.0007081041694618762,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0023186008911579847,
+     "lift_mm": 19.779800415039062,
+     "along": 0.10733340908711174,
+     "cross": 0.005805053079867006,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0016931158024817705,
+     "lift_mm": 0.16787275671958923,
+     "drift": 0.000448983337264508,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.014173905365169048,
+     "lift_mm": 17.553298950195312,
+     "along": 0.11653000116348267,
+     "cross": -0.003503458108752966,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0009101171162910759,
+     "lift_mm": 0.1704767346382141,
+     "drift": 0.0002705407969187945,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.02133232355117798,
+     "lift_mm": 17.70944595336914,
+     "along": 0.10796480266008428,
+     "cross": 0.002725302195024433,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.00316042173653841,
+     "lift_mm": 0.13368763029575348,
+     "drift": 0.00034881976898759604,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.014772157184779644,
+     "lift_mm": 20.9620418548584,
+     "along": 0.11881024039162101,
+     "cross": 0.0011424611378036686,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0019613367039710283,
+     "lift_mm": 0.13070553541183472,
+     "drift": 0.00011505070142447948,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.016798973083496094,
+     "lift_mm": 18.19418716430664,
+     "along": 0.11540535092353821,
+     "cross": 0.002038463018834591,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.004833707585930824,
+     "lift_mm": 0.24550127983093262,
+     "drift": 0.00033584923949092627,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.011370857246220112,
+     "lift_mm": 19.462902069091797,
+     "along": 0.10912017524242401,
+     "cross": 0.004673251416534185,
+     "gates": {
+      "no_falls": true,
+      "speed": true,
+      "direction": true,
+      "stepping": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0019685581792145967,
+     "lift_mm": 0.18499326705932617,
+     "drift": 0.0008048368035815656,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.2430915832519531,
+     "lift_mm": 16.91387367248535,
+     "drift": 0.002941483398899436,
+     "gates": {
+      "no_falls": true,
+      "yaw": true,
+      "stepping": true,
+      "pass": true
+     }
+    }
+   ]
+  },
+  "pass": true
+ },
+ "takes_robust": {
+  "takes": {
+   "000cb09b-1": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.014604128897190094,
+     "lift_mm": 18.131879806518555,
+     "along": 0.11368587478278556,
+     "cross": 0.0032940775700009486,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.00013047605170868337,
+     "lift_mm": 0.1712130308151245,
+     "drift": 8.332222205353901e-05,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.005269443150609732,
+     "lift_mm": 17.964717864990234,
+     "along": 0.11189831793308258,
+     "cross": 0.00380465155467391,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0003767840098589659,
+     "lift_mm": 0.16052834689617157,
+     "drift": 0.00023951106413733214,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.239171028137207,
+     "lift_mm": 17.771100997924805,
+     "drift": 0.004574431572109461,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.007226260844618082,
+     "lift_mm": 0.22040493786334991,
+     "drift": 0.0005775489844381809,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.010748490691184998,
+     "lift_mm": 17.972930908203125,
+     "along": 0.11768633872270584,
+     "cross": -0.004682435654103756,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.1720337170118e-05,
+     "lift_mm": 0.18440373241901398,
+     "drift": 0.000394571281503886,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.00563262403011322,
+     "lift_mm": 18.442533493041992,
+     "along": 0.11114780159226337,
+     "cross": 0.006055573965514788,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.00016580408555455506,
+     "lift_mm": 0.1456456184387207,
+     "drift": 0.00020264995691832155,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.007831260561943054,
+     "lift_mm": 18.054445266723633,
+     "along": 0.11892639100551605,
+     "cross": 0.0033414459321647882,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.002105132909491658,
+     "lift_mm": 0.15677586197853088,
+     "drift": 0.0001489350979682058,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.2541496753692627,
+     "lift_mm": 16.273317337036133,
+     "drift": 0.0028057743329554796,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.008585866540670395,
+     "lift_mm": 0.22899304330348969,
+     "drift": 0.0005676709697581828,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.003178294748067856,
+     "lift_mm": 19.582237243652344,
+     "along": 0.12299475776584316,
+     "cross": 0.0005249446939947916,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0007480347412638366,
+     "lift_mm": 0.2126118242740631,
+     "drift": 0.0003308301093056798,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.016651583835482597,
+     "lift_mm": 18.39439582824707,
+     "along": 0.11668711155653,
+     "cross": 0.0035161925479769707,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0011758269974961877,
+     "lift_mm": 0.23226159811019897,
+     "drift": 0.0004938720376230776,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.001472707837820053,
+     "lift_mm": 16.972017288208008,
+     "along": 0.11370799972736212,
+     "cross": 0.0008268227950349594,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    }
+   ],
+   "000cb09b-2": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0011047475272789598,
+     "lift_mm": 18.0551700592041,
+     "along": 0.11443955851903977,
+     "cross": 0.0065587142567222825,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.00101846968755126,
+     "lift_mm": 0.15428662300109863,
+     "drift": 9.07237408682704e-05,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005430228193290532,
+     "lift_mm": 17.17731475830078,
+     "along": 0.11469783091332388,
+     "cross": 0.0008172559985008127,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0014741997001692653,
+     "lift_mm": 0.18687638640403748,
+     "drift": 0.00036894617369398475,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.2579152584075928,
+     "lift_mm": 16.57758331298828,
+     "drift": 0.006113926414400339,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.007563543040305376,
+     "lift_mm": 0.2887740731239319,
+     "drift": 0.0005871502798981965,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.008919243700802326,
+     "lift_mm": 17.644805908203125,
+     "along": 0.1134545016208186,
+     "cross": 0.003688407806459737,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0003679154033306986,
+     "lift_mm": 0.16273893415927887,
+     "drift": 0.00017976480012293905,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.00803221296519041,
+     "lift_mm": 18.210372924804688,
+     "along": 0.11322653293609619,
+     "cross": 0.004267165437340736,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.002600195351988077,
+     "lift_mm": 0.15526320040225983,
+     "drift": 7.731979712843895e-05,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.246280550956726,
+     "lift_mm": 17.663114547729492,
+     "drift": 0.0022990319412201643,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.005981874652206898,
+     "lift_mm": 0.14358219504356384,
+     "drift": 0.00039639740134589374,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0074922069907188416,
+     "lift_mm": 18.048301696777344,
+     "along": 0.11978431791067123,
+     "cross": -0.005453271791338921,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0023555979132652283,
+     "lift_mm": 0.2132827341556549,
+     "drift": 0.00021367518638726324,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.005821704864501953,
+     "lift_mm": 20.39872169494629,
+     "along": 0.12621009448082116,
+     "cross": -0.0007590023004823004,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0009772779885679483,
+     "lift_mm": 0.23561549186706543,
+     "drift": 0.0005314970621839166,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.01550468523055315,
+     "lift_mm": 18.414281845092773,
+     "along": 0.11996172368526459,
+     "cross": 0.003354914952069521,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0015364316059276462,
+     "lift_mm": 0.22082830965518951,
+     "drift": 0.0005747588584199548,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.017927154898643494,
+     "lift_mm": 17.88896942138672,
+     "along": 0.11991147696971893,
+     "cross": 0.0027376136276870966,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    }
+   ],
+   "000cb09b-3": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.015845222398638725,
+     "lift_mm": 17.9962100982666,
+     "along": 0.1125289377001245,
+     "cross": 0.0032282626308041615,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0003423607849981636,
+     "lift_mm": 0.208403542637825,
+     "drift": 0.00018290146545041353,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0011603068560361862,
+     "lift_mm": 20.122589111328125,
+     "along": 0.12307288555060712,
+     "cross": 0.0002456680118691351,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.000939377408940345,
+     "lift_mm": 0.25992318987846375,
+     "drift": 0.0007782331085763872,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.012919984757900238,
+     "lift_mm": 18.159770965576172,
+     "along": 0.11590655148029327,
+     "cross": 0.0034982983488589525,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0011217704741284251,
+     "lift_mm": 0.2822568714618683,
+     "drift": 0.00025221481337212026,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.013837491162121296,
+     "lift_mm": 18.168731689453125,
+     "along": 0.11660998314619064,
+     "cross": 0.0021209262777119875,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0023159298580139875,
+     "lift_mm": 0.28968772292137146,
+     "drift": 0.0004856197629123926,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005638266447931528,
+     "lift_mm": 18.289714813232422,
+     "along": 0.11144919255902982,
+     "cross": 0.005296851922180802,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0006365993176586926,
+     "lift_mm": 0.16435422003269196,
+     "drift": 0.00014802075747866184,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.250705599784851,
+     "lift_mm": 16.590232849121094,
+     "drift": 0.005432088393718004,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.006468307692557573,
+     "lift_mm": 0.25680363178253174,
+     "drift": 0.0005799648934043944,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.010215614922344685,
+     "lift_mm": 18.656230926513672,
+     "along": 0.11242800205945969,
+     "cross": 0.004397651180624962,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0011025713756680489,
+     "lift_mm": 0.19660164415836334,
+     "drift": 0.0003677140630315989,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.013059467077255249,
+     "lift_mm": 18.12805938720703,
+     "along": 0.11804623901844025,
+     "cross": -0.004496775567531586,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0005519161350093782,
+     "lift_mm": 0.2422100007534027,
+     "drift": 0.00032829915289767087,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0014808973064646125,
+     "lift_mm": 17.261249542236328,
+     "along": 0.11229517249815398,
+     "cross": 0.0010833265076520063,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0003892068925779313,
+     "lift_mm": 0.23101139068603516,
+     "drift": 0.00023033122124616057,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.2418086528778076,
+     "lift_mm": 17.854053497314453,
+     "drift": 0.0029537964146584272,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    }
+   ],
+   "000cb09b-4": [
+    {
+     "kf": 0,
+     "stand": false,
+     "command": [
+      -0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.006184443831443787,
+     "lift_mm": 17.455841064453125,
+     "along": 0.11358428026501935,
+     "cross": 0.0006933120577433532,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 1,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0013719431590288877,
+     "lift_mm": 0.22761988639831543,
+     "drift": 0.00011408699356252328,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 2,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 1.2438888549804688,
+     "lift_mm": 18.156240463256836,
+     "drift": 0.0013217421947047114,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 3,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.004259468521922827,
+     "lift_mm": 0.1738654375076294,
+     "drift": 0.00028178622596897185,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 4,
+     "stand": false,
+     "command": [
+      0.0,
+      -0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.010941539891064167,
+     "lift_mm": 18.921449661254883,
+     "along": 0.11807636171579361,
+     "cross": 0.002981603844091296,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 5,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0004299844731576741,
+     "lift_mm": 0.17668753862380981,
+     "drift": 0.00034527311800047755,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 6,
+     "stand": false,
+     "command": [
+      -0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.007791424635797739,
+     "lift_mm": 18.373695373535156,
+     "along": 0.11146381538788577,
+     "cross": 0.006148379118340916,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 7,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -2.662149927346036e-05,
+     "lift_mm": 0.17712357640266418,
+     "drift": 0.0003132216806989163,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 8,
+     "stand": false,
+     "command": [
+      0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.010731478221714497,
+     "lift_mm": 18.53277587890625,
+     "along": 0.11644309759140015,
+     "cross": -0.004685775842517614,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 9,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0008168702479451895,
+     "lift_mm": 0.164127916097641,
+     "drift": 0.00038605628651566803,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 10,
+     "stand": false,
+     "command": [
+      0.084,
+      0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.008479808457195759,
+     "lift_mm": 17.628190994262695,
+     "along": 0.1117439748614357,
+     "cross": 0.0031895363237133822,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 11,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.0001731686934363097,
+     "lift_mm": 0.15173162519931793,
+     "drift": 0.00025658204685896635,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 12,
+     "stand": false,
+     "command": [
+      0.084,
+      -0.086,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.012542665004730225,
+     "lift_mm": 19.435039520263672,
+     "along": 0.1221122115200999,
+     "cross": -0.0007344990746564542,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 13,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0009765991708263755,
+     "lift_mm": 0.15516671538352966,
+     "drift": 0.0004422560741659254,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 14,
+     "stand": false,
+     "command": [
+      0.0,
+      0.12,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.018203750252723694,
+     "lift_mm": 17.776700973510742,
+     "along": 0.11761665344238281,
+     "cross": 0.003298981348052621,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 15,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.00038599740946665406,
+     "lift_mm": 0.2176828682422638,
+     "drift": 7.303523307200521e-05,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 16,
+     "stand": false,
+     "command": [
+      -0.12,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": 0.010828186757862568,
+     "lift_mm": 18.200483322143555,
+     "along": 0.11193156242370605,
+     "cross": 0.0043744659051299095,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 17,
+     "stand": true,
+     "command": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -0.0010281801223754883,
+     "lift_mm": 0.17994418740272522,
+     "drift": 0.00010059501801151782,
+     "gates": {
+      "no_falls": true,
+      "still": true,
+      "pass": true
+     }
+    },
+    {
+     "kf": 18,
+     "stand": false,
+     "command": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "fall_frac": 0.0,
+     "yaw_rate": -1.256701111793518,
+     "lift_mm": 17.493005752563477,
+     "drift": 0.0021658625919371843,
+     "gates": {
+      "no_falls": true,
+      "pass": true
+     }
+    }
+   ]
+  },
+  "pass": true
+ },
+ "clean": {
+  "+0.100,+0.000,+0.00": {
+   "metrics": {
+    "command": [
+     0.1,
+     0.0,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09589676558971405,
+    "cross": -0.002794875530526042,
+    "yaw_rate": -0.01257212646305561,
+    "heading_deg": 5.748230934143066,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.82679557800293,
+    "pitch_deg": 0.41161152720451355,
+    "roll_deg": 0.7510587573051453
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.071,+0.071,+0.00": {
+   "metrics": {
+    "command": [
+     0.0707,
+     0.0707,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09072779145152363,
+    "cross": 0.0037513763992102905,
+    "yaw_rate": -0.021275833249092102,
+    "heading_deg": 9.727743148803711,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.736915588378906,
+    "pitch_deg": 0.6649135947227478,
+    "roll_deg": 0.5494881868362427
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.000,+0.100,+0.00": {
+   "metrics": {
+    "command": [
+     0.0,
+     0.1,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09499374032020569,
+    "cross": 0.002085180953145027,
+    "yaw_rate": -0.014161601662635803,
+    "heading_deg": 6.474971771240234,
+    "f0_hz": 2.75,
+    "clearance_mm": 17.4554443359375,
+    "pitch_deg": 0.6752206683158875,
+    "roll_deg": 0.40854722261428833
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "-0.071,+0.071,+0.00": {
+   "metrics": {
+    "command": [
+     -0.0707,
+     0.0707,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09101646180241982,
+    "cross": 0.0003280131168920952,
+    "yaw_rate": 0.008303668349981308,
+    "heading_deg": 3.7966055870056152,
+    "f0_hz": 2.75,
+    "clearance_mm": 17.524837493896484,
+    "pitch_deg": 0.6266927719116211,
+    "roll_deg": 0.6532027721405029
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "-0.100,+0.000,+0.00": {
+   "metrics": {
+    "command": [
+     -0.1,
+     0.0,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09014791622757912,
+    "cross": 0.0036086528562009335,
+    "yaw_rate": 0.010720820166170597,
+    "heading_deg": 4.901776313781738,
+    "f0_hz": 2.75,
+    "clearance_mm": 17.665063858032227,
+    "pitch_deg": 0.5035536289215088,
+    "roll_deg": 0.39635854959487915
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "-0.071,-0.071,+0.00": {
+   "metrics": {
+    "command": [
+     -0.0707,
+     -0.0707,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09001982712948384,
+    "cross": 0.004876963306432381,
+    "yaw_rate": -0.006343336775898933,
+    "heading_deg": 2.9003024101257324,
+    "f0_hz": 2.75,
+    "clearance_mm": 17.105777740478516,
+    "pitch_deg": 0.744366466999054,
+    "roll_deg": 0.6573030948638916
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "-0.000,-0.100,+0.00": {
+   "metrics": {
+    "command": [
+     -0.0,
+     -0.1,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09264645352959633,
+    "cross": 0.002423517289571464,
+    "yaw_rate": -0.016840241849422455,
+    "heading_deg": 7.699700832366943,
+    "f0_hz": 2.75,
+    "clearance_mm": 16.569019317626953,
+    "pitch_deg": 0.8073499798774719,
+    "roll_deg": 0.9890580773353577
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.071,-0.071,+0.00": {
+   "metrics": {
+    "command": [
+     0.0707,
+     -0.0707,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09851867986269991,
+    "cross": 0.00035677307264471783,
+    "yaw_rate": -0.011990778148174286,
+    "heading_deg": 5.48242712020874,
+    "f0_hz": 2.75,
+    "clearance_mm": 17.275569915771484,
+    "pitch_deg": 0.6242212057113647,
+    "roll_deg": 0.6577379107475281
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.050,+0.000,+0.00": {
+   "metrics": {
+    "command": [
+     0.05,
+     0.0,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.042769208550453186,
+    "cross": -0.0007808895315974951,
+    "yaw_rate": -0.011150514706969261,
+    "heading_deg": 5.098241806030273,
+    "f0_hz": 2.75,
+    "clearance_mm": 13.470827102661133,
+    "pitch_deg": 0.9100404977798462,
+    "roll_deg": 0.6358228921890259
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.120,+0.000,+0.00": {
+   "metrics": {
+    "command": [
+     0.12,
+     0.0,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.11608712002635002,
+    "cross": -0.003707768162712455,
+    "yaw_rate": -0.013542015105485916,
+    "heading_deg": 6.191684722900391,
+    "f0_hz": 2.75,
+    "clearance_mm": 16.43286895751953,
+    "pitch_deg": 0.39900079369544983,
+    "roll_deg": 0.8207330703735352
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.000,+0.120,+0.00": {
+   "metrics": {
+    "command": [
+     0.0,
+     0.12,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.11483880877494812,
+    "cross": 0.002073581446893513,
+    "yaw_rate": -0.018897786736488342,
+    "heading_deg": 8.640451431274414,
+    "f0_hz": 2.75,
+    "clearance_mm": 16.711034774780273,
+    "pitch_deg": 0.6257771253585815,
+    "roll_deg": 0.38421639800071716
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.000,-0.120,+0.00": {
+   "metrics": {
+    "command": [
+     0.0,
+     -0.12,
+     0.0
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.11377837508916855,
+    "cross": 0.003323723329231143,
+    "yaw_rate": -0.02314254269003868,
+    "heading_deg": 10.581239700317383,
+    "f0_hz": 2.75,
+    "clearance_mm": 17.377466201782227,
+    "pitch_deg": 0.7319004535675049,
+    "roll_deg": 0.6911033391952515
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "heading": false,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": false
+   }
+  },
+  "+0.000,+0.000,+0.40": {
+   "metrics": {
+    "command": [
+     0.0,
+     0.0,
+     0.4
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "drift": 0.003386606927961111,
+    "yaw_rate": 0.38493257761001587,
+    "heading_deg": 175.99899291992188,
+    "f0_hz": 4.0625,
+    "clearance_mm": 12.731884002685547,
+    "pitch_deg": 1.2098619937896729,
+    "roll_deg": 0.7647541165351868
+   },
+   "gates": {
+    "no_falls": true,
+    "drift": true,
+    "yaw": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": false,
+    "pass": false
+   }
+  },
+  "+0.000,+0.000,-0.40": {
+   "metrics": {
+    "command": [
+     0.0,
+     0.0,
+     -0.4
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "drift": 0.0039051598869264126,
+    "yaw_rate": -0.3991711139678955,
+    "heading_deg": 182.50912475585938,
+    "f0_hz": 2.75,
+    "clearance_mm": 13.483710289001465,
+    "pitch_deg": 0.876386284828186,
+    "roll_deg": 0.523037850856781
+   },
+   "gates": {
+    "no_falls": true,
+    "drift": true,
+    "yaw": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.100,+0.000,+0.40": {
+   "metrics": {
+    "command": [
+     0.1,
+     0.0,
+     0.4
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09670847654342651,
+    "cross": -0.007338671013712883,
+    "yaw_rate": 0.40017378330230713,
+    "heading_deg": 182.9675750732422,
+    "f0_hz": 2.75,
+    "clearance_mm": 17.555110931396484,
+    "pitch_deg": 0.5671536326408386,
+    "roll_deg": 0.7120964527130127
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "yaw": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  },
+  "+0.000,+0.100,-0.40": {
+   "metrics": {
+    "command": [
+     0.0,
+     0.1,
+     -0.4
+    ],
+    "n": 2,
+    "fall_frac": 0.0,
+    "along": 0.09527189657092094,
+    "cross": 0.002018644823692739,
+    "yaw_rate": -0.43578222393989563,
+    "heading_deg": 199.24847412109375,
+    "f0_hz": 2.75,
+    "clearance_mm": 16.65989112854004,
+    "pitch_deg": 0.47367972135543823,
+    "roll_deg": 0.5469075441360474
+   },
+   "gates": {
+    "no_falls": true,
+    "speed": true,
+    "direction": true,
+    "yaw": true,
+    "clearance": true,
+    "pitch": true,
+    "roll": true,
+    "f0": true,
+    "pass": true
+   }
+  }
+ },
+ "robust": {
+  "metrics": {
+   "+0.100,+0.000,+0.00": {
+    "command": [
+     0.1,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09607131918892264,
+    "cross": -0.0034869291412178427,
+    "yaw_rate": -0.011906130239367485,
+    "heading_deg": 5.443723678588867,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.826729774475098,
+    "pitch_deg": 0.4730222225189209,
+    "roll_deg": 0.7948591709136963
+   },
+   "+0.071,+0.071,+0.00": {
+    "command": [
+     0.0707,
+     0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09332318154120656,
+    "cross": 0.003467493666887129,
+    "yaw_rate": -0.017903417348861694,
+    "heading_deg": 8.185805320739746,
+    "f0_hz": 2.8125,
+    "clearance_mm": 15.836732864379883,
+    "pitch_deg": 0.660574197769165,
+    "roll_deg": 0.6373464465141296
+   },
+   "+0.000,+0.100,+0.00": {
+    "command": [
+     0.0,
+     0.1,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09754160419106483,
+    "cross": 0.002519936562748626,
+    "yaw_rate": -0.012207943946123123,
+    "heading_deg": 5.581719398498535,
+    "f0_hz": 3.0,
+    "clearance_mm": 15.243342399597168,
+    "pitch_deg": 0.6957740187644958,
+    "roll_deg": 0.5002773404121399
+   },
+   "-0.071,+0.071,+0.00": {
+    "command": [
+     -0.0707,
+     0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09516109332292803,
+    "cross": 0.0006702343315439212,
+    "yaw_rate": 0.0004497476329561323,
+    "heading_deg": 1.289894938468933,
+    "f0_hz": 2.75,
+    "clearance_mm": 14.8809814453125,
+    "pitch_deg": 0.6752301454544067,
+    "roll_deg": 0.5470107793807983
+   },
+   "-0.100,+0.000,+0.00": {
+    "command": [
+     -0.1,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09271499235183,
+    "cross": 0.0027824807475553825,
+    "yaw_rate": 0.0008980984566733241,
+    "heading_deg": 1.485788345336914,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.598615646362305,
+    "pitch_deg": 0.6309348940849304,
+    "roll_deg": 0.4351886510848999
+   },
+   "-0.071,-0.071,+0.00": {
+    "command": [
+     -0.0707,
+     -0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09410136646413253,
+    "cross": 0.004815835558840158,
+    "yaw_rate": -0.0014488238375633955,
+    "heading_deg": 1.6860584020614624,
+    "f0_hz": 2.8125,
+    "clearance_mm": 15.267364501953125,
+    "pitch_deg": 0.8360795974731445,
+    "roll_deg": 0.5879710912704468
+   },
+   "-0.000,-0.100,+0.00": {
+    "command": [
+     -0.0,
+     -0.1,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09957389114424586,
+    "cross": 0.002551965502789244,
+    "yaw_rate": -0.017012858763337135,
+    "heading_deg": 7.778624534606934,
+    "f0_hz": 2.9375,
+    "clearance_mm": 15.046024322509766,
+    "pitch_deg": 0.7634893655776978,
+    "roll_deg": 0.602510392665863
+   },
+   "+0.071,-0.071,+0.00": {
+    "command": [
+     0.0707,
+     -0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09977038397010127,
+    "cross": -0.000310671005818879,
+    "yaw_rate": -0.006548707839101553,
+    "heading_deg": 3.064380645751953,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.978280067443848,
+    "pitch_deg": 0.7343040704727173,
+    "roll_deg": 0.6888315081596375
+   },
+   "+0.050,+0.000,+0.00": {
+    "command": [
+     0.05,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.044886428164318204,
+    "cross": -0.0009681320952950045,
+    "yaw_rate": -0.01006033830344677,
+    "heading_deg": 4.599790573120117,
+    "f0_hz": 2.75,
+    "clearance_mm": 13.321338653564453,
+    "pitch_deg": 0.8794352412223816,
+    "roll_deg": 0.6847217679023743
+   },
+   "+0.120,+0.000,+0.00": {
+    "command": [
+     0.12,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.11783138243481517,
+    "cross": -0.004831869853660464,
+    "yaw_rate": -0.007585342042148113,
+    "heading_deg": 3.6473379135131836,
+    "f0_hz": 2.8125,
+    "clearance_mm": 16.150680541992188,
+    "pitch_deg": 0.5186953544616699,
+    "roll_deg": 0.9857926368713379
+   },
+   "+0.000,+0.120,+0.00": {
+    "command": [
+     0.0,
+     0.12,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.11662306310608983,
+    "cross": 0.0023619050334673375,
+    "yaw_rate": -0.01596396043896675,
+    "heading_deg": 7.299047470092773,
+    "f0_hz": 2.875,
+    "clearance_mm": 15.569940567016602,
+    "pitch_deg": 0.7047712206840515,
+    "roll_deg": 0.621792197227478
+   },
+   "+0.000,-0.120,+0.00": {
+    "command": [
+     0.0,
+     -0.12,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.11950142262503505,
+    "cross": 0.0033078267879318446,
+    "yaw_rate": -0.015263165347278118,
+    "heading_deg": 6.978629112243652,
+    "f0_hz": 2.875,
+    "clearance_mm": 15.635580062866211,
+    "pitch_deg": 0.7825447916984558,
+    "roll_deg": 0.7406740188598633
+   },
+   "+0.000,+0.000,+0.40": {
+    "command": [
+     0.0,
+     0.0,
+     0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "drift": 0.0033448790200054646,
+    "yaw_rate": 0.3992712199687958,
+    "heading_deg": 182.55490112304688,
+    "f0_hz": 2.75,
+    "clearance_mm": 11.85600471496582,
+    "pitch_deg": 1.186694860458374,
+    "roll_deg": 0.8369224667549133
+   },
+   "+0.000,+0.000,-0.40": {
+    "command": [
+     0.0,
+     0.0,
+     -0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "drift": 0.004381941631436348,
+    "yaw_rate": -0.41361191868782043,
+    "heading_deg": 189.1117706298828,
+    "f0_hz": 2.875,
+    "clearance_mm": 12.727362632751465,
+    "pitch_deg": 0.9205429553985596,
+    "roll_deg": 0.62260502576828
+   },
+   "+0.100,+0.000,+0.40": {
+    "command": [
+     0.1,
+     0.0,
+     0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09905569953843951,
+    "cross": -0.00669224705779925,
+    "yaw_rate": 0.4131627678871155,
+    "heading_deg": 188.90640258789062,
+    "f0_hz": 2.8125,
+    "clearance_mm": 16.303537368774414,
+    "pitch_deg": 0.5410584807395935,
+    "roll_deg": 0.6997907757759094
+   },
+   "+0.000,+0.100,-0.40": {
+    "command": [
+     0.0,
+     0.1,
+     -0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09759990172460675,
+    "cross": 0.0033786488347686827,
+    "yaw_rate": -0.43195855617523193,
+    "heading_deg": 197.50021362304688,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.31804084777832,
+    "pitch_deg": 0.536678671836853,
+    "roll_deg": 0.5946047306060791
+   }
+  },
+  "gates": {
+   "+0.100,+0.000,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.071,+0.071,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.000,+0.100,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "-0.071,+0.071,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "-0.100,+0.000,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "-0.071,-0.071,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "-0.000,-0.100,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.071,-0.071,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.050,+0.000,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.120,+0.000,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.000,+0.120,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.000,-0.120,+0.00": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.000,+0.000,+0.40": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.000,+0.000,-0.40": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.100,+0.000,+0.40": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   },
+   "+0.000,+0.100,-0.40": {
+    "no_falls": true,
+    "rhythm_f0": true,
+    "pass": true
+   }
+  },
+  "pass": true
+ },
+ "safety_2xN2": {
+  "metrics": {
+   "+0.100,+0.000,+0.00": {
+    "command": [
+     0.1,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.0966051802970469,
+    "cross": -0.003738035593414679,
+    "yaw_rate": -0.008486157283186913,
+    "heading_deg": 4.0505051612854,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.49868392944336,
+    "pitch_deg": 0.6050305962562561,
+    "roll_deg": 0.8381512761116028
+   },
+   "+0.071,+0.071,+0.00": {
+    "command": [
+     0.0707,
+     0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09391843860488312,
+    "cross": 0.003920493263038283,
+    "yaw_rate": -0.012105954810976982,
+    "heading_deg": 5.535088062286377,
+    "f0_hz": 2.8125,
+    "clearance_mm": 15.518266677856445,
+    "pitch_deg": 0.6801079511642456,
+    "roll_deg": 0.7724127173423767
+   },
+   "+0.000,+0.100,+0.00": {
+    "command": [
+     0.0,
+     0.1,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09909173473715782,
+    "cross": 0.0025584947361494415,
+    "yaw_rate": -0.008958132937550545,
+    "heading_deg": 4.0958404541015625,
+    "f0_hz": 2.9375,
+    "clearance_mm": 14.93882942199707,
+    "pitch_deg": 0.7778655886650085,
+    "roll_deg": 0.6598132252693176
+   },
+   "-0.071,+0.071,+0.00": {
+    "command": [
+     -0.0707,
+     0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09212912378585597,
+    "cross": 0.0009486010950682158,
+    "yaw_rate": 0.0011310497066006064,
+    "heading_deg": 1.7698990106582642,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.083176612854004,
+    "pitch_deg": 0.7554986476898193,
+    "roll_deg": 0.6463766098022461
+   },
+   "-0.100,+0.000,+0.00": {
+    "command": [
+     -0.1,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.0936123481951654,
+    "cross": 0.002811059974192176,
+    "yaw_rate": 0.0013971093576401472,
+    "heading_deg": 1.5867172479629517,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.010430335998535,
+    "pitch_deg": 0.6372647881507874,
+    "roll_deg": 0.5670311450958252
+   },
+   "-0.071,-0.071,+0.00": {
+    "command": [
+     -0.0707,
+     -0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.092913448483866,
+    "cross": 0.004705410651105487,
+    "yaw_rate": -0.002654056530445814,
+    "heading_deg": 1.8147246837615967,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.174336433410645,
+    "pitch_deg": 0.8365871906280518,
+    "roll_deg": 0.6480128169059753
+   },
+   "-0.000,-0.100,+0.00": {
+    "command": [
+     -0.0,
+     -0.1,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09646956855431199,
+    "cross": 0.0022391975653590634,
+    "yaw_rate": -0.01335478201508522,
+    "heading_deg": 6.106077194213867,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.10646915435791,
+    "pitch_deg": 0.8003660440444946,
+    "roll_deg": 0.7192901968955994
+   },
+   "+0.071,-0.071,+0.00": {
+    "command": [
+     0.0707,
+     -0.0707,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.10502961985107195,
+    "cross": -0.0005689508447606867,
+    "yaw_rate": -0.006022042594850063,
+    "heading_deg": 3.09492826461792,
+    "f0_hz": 3.0,
+    "clearance_mm": 15.594633102416992,
+    "pitch_deg": 0.7541510462760925,
+    "roll_deg": 0.7620310187339783
+   },
+   "+0.050,+0.000,+0.00": {
+    "command": [
+     0.05,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.04322267370298505,
+    "cross": -0.001051960409313324,
+    "yaw_rate": -0.010509088635444641,
+    "heading_deg": 4.80496883392334,
+    "f0_hz": 2.625,
+    "clearance_mm": 13.262700080871582,
+    "pitch_deg": 0.9322396516799927,
+    "roll_deg": 0.7894724011421204
+   },
+   "+0.120,+0.000,+0.00": {
+    "command": [
+     0.12,
+     0.0,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.11500721517950296,
+    "cross": -0.004669617235776968,
+    "yaw_rate": -0.00976452138274908,
+    "heading_deg": 4.464537620544434,
+    "f0_hz": 2.75,
+    "clearance_mm": 16.129512786865234,
+    "pitch_deg": 0.4988456070423126,
+    "roll_deg": 0.9930161833763123
+   },
+   "+0.000,+0.120,+0.00": {
+    "command": [
+     0.0,
+     0.12,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.12078908085823059,
+    "cross": 0.002836272011336405,
+    "yaw_rate": -0.01233969908207655,
+    "heading_deg": 5.641961097717285,
+    "f0_hz": 3.125,
+    "clearance_mm": 15.237547874450684,
+    "pitch_deg": 0.7416139245033264,
+    "roll_deg": 0.6355564594268799
+   },
+   "+0.000,-0.120,+0.00": {
+    "command": [
+     0.0,
+     -0.12,
+     0.0
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.1137093217112124,
+    "cross": 0.0032813946600072086,
+    "yaw_rate": -0.012588808313012123,
+    "heading_deg": 5.755858421325684,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.848724365234375,
+    "pitch_deg": 0.8573554158210754,
+    "roll_deg": 0.9688644409179688
+   },
+   "+0.000,+0.000,+0.40": {
+    "command": [
+     0.0,
+     0.0,
+     0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "drift": 0.0039988355711102486,
+    "yaw_rate": 0.4006972908973694,
+    "heading_deg": 183.20693969726562,
+    "f0_hz": 2.75,
+    "clearance_mm": 11.459178924560547,
+    "pitch_deg": 1.2608025074005127,
+    "roll_deg": 0.9250802397727966
+   },
+   "+0.000,+0.000,-0.40": {
+    "command": [
+     0.0,
+     0.0,
+     -0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "drift": 0.004312710836529732,
+    "yaw_rate": -0.41275379061698914,
+    "heading_deg": 188.71942138671875,
+    "f0_hz": 2.75,
+    "clearance_mm": 12.588053703308105,
+    "pitch_deg": 0.908737301826477,
+    "roll_deg": 0.6692957878112793
+   },
+   "+0.100,+0.000,+0.40": {
+    "command": [
+     0.1,
+     0.0,
+     0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.10072461795061827,
+    "cross": -0.00676372111774981,
+    "yaw_rate": 0.41764870285987854,
+    "heading_deg": 190.95745849609375,
+    "f0_hz": 2.875,
+    "clearance_mm": 16.254209518432617,
+    "pitch_deg": 0.5766889452934265,
+    "roll_deg": 0.7713472843170166
+   },
+   "+0.000,+0.100,-0.40": {
+    "command": [
+     0.0,
+     0.1,
+     -0.4
+    ],
+    "n": 16,
+    "fall_frac": 0.0,
+    "along": 0.09696291061118245,
+    "cross": 0.0033632415725151077,
+    "yaw_rate": -0.43382370471954346,
+    "heading_deg": 198.35299682617188,
+    "f0_hz": 2.75,
+    "clearance_mm": 15.107994079589844,
+    "pitch_deg": 0.5740623474121094,
+    "roll_deg": 0.7059741616249084
+   }
+  },
+  "fall_frac": 0.0,
+  "pass": true
+ },
+ "joystick": {
+  "n": 256,
+  "fall_frac": 0.0,
+  "stops": true,
+  "pass": true
+ },
+ "pass": false
+}
